@@ -1,0 +1,16 @@
+filename = 'flerovium-forge-1.20.1-1.2.10-all.jar'
+name = 'Flerovium'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0ecafed1d870dbb2efbd02625f5f782f4c4f8c94fa779f70f1ccbc528e93cc4d39b2fa66b37cd91cb555ced45d47acd185a10f819733bfe2555c849fbc2734c4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4Rh1Mobu/versions/xZ6tk7RY/flerovium-forge-1.20.1-1.2.10-all.jar'
+
+[update.modrinth]
+mod-id = '4Rh1Mobu'
+version = 'xZ6tk7RY'

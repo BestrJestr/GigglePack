@@ -1,0 +1,16 @@
+filename = 'fastportals-1.0.3-forge 1.20.x.jar'
+name = 'Fast Portals'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '787b6e72c58d2063ec4e4a417b4760bc612ddfeb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4607846
+project-id = 807397

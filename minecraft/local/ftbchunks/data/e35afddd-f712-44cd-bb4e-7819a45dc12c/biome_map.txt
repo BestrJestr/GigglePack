@@ -1,0 +1,7 @@
+#2B7 biomeswevegone:crimson_tundra
+#4CA minecraft:dripstone_caves
+#3A0 minecraft:frozen_river
+#154 minecraft:ice_spikes
+#189 terralith:rocky_shrubland
+#599 biomeswevegone:shattered_glacier
+#294 atmospheric:snowy_scrubland

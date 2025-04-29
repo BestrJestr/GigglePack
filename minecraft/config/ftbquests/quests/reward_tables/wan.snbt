@@ -1,0 +1,65 @@
+{
+	id: "32296892558597CF"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			command: "/locate structure wan_ancient_beasts:abandoned_housing"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mcwbyg:aspen_planks_steep_roof"
+			}
+			title: "abandoned housing"
+			type: "command"
+		}
+		{
+			command: "/locate structure wan_ancient_beasts:abandoned_hut"
+			elevate_perms: true
+			title: "hut"
+			type: "command"
+		}
+		{
+			command: "/locate structure wan_ancient_beasts:abandoned_village"
+			elevate_perms: true
+			title: "abandoned village"
+			type: "command"
+		}
+		{
+			command: "/locate structure wan_ancient_beasts:ancient_nest_double"
+			elevate_perms: true
+			title: "ancient nest double"
+			type: "command"
+		}
+		{
+			command: "/locate structure wan_ancient_beasts:ancient_nest_single"
+			elevate_perms: true
+			title: "ancient nest single"
+			type: "command"
+		}
+		{
+			command: "/locate structure wan_ancient_beasts:badlands_temple"
+			elevate_perms: true
+			title: "badlands temple"
+			type: "command"
+		}
+		{
+			command: "/locate structure wan_ancient_beasts:desert_temple"
+			elevate_perms: true
+			title: "desert temple"
+			type: "command"
+		}
+		{
+			command: "/locate structure wan_ancient_beasts:ice_castle"
+			elevate_perms: true
+			title: "ice castle"
+			type: "command"
+		}
+	]
+	title: "wan"
+}

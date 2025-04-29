@@ -1,0 +1,699 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_welcoming_world"
+	group: "5E3D36E9ED5416F5"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "create:andesite_casing"
+	}
+	id: "1DA072E9DE2BFD8B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"I made this pack because I was tired of kitchen sink packs with no integration. While I made this pack with only myself in mind, I'm sure there's a niche group of people who would enjoy another progression pack to play. If you enjoy games like Factorio or Satisfactory, this will be your cup of tea. "
+				"{@pagebreak}"
+				"Here's a nature's compass. It'll let you find any biome you may want to settle in early on. There are a few different biome mods I'm experimenting with that seemed interesting, and I hope you end up enjoying them!"
+			]
+			id: "2EAA8BD178A3BD01"
+			rewards: [{
+				id: "6DBC958DCF278945"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Hi buddy!"
+			tasks: [{
+				id: "28585892800B2B24"
+				title: "Start Here"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EAA8BD178A3BD01"]
+			description: [
+				"Sorry, just wanted to make you do something. By now you've probably noticed that combat is a bit different. You'll have to think a little bit more about what kind of weapons you'll want to use."
+				"{@pagebreak}"
+				"Guns, Magic, Spears, Technology, there are options for everyone."
+				""
+			]
+			id: "0BC4FFBA9F8D25B8"
+			subtitle: "alright"
+			tasks: [
+				{
+					id: "772156D1B6712854"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2156C3E55660E268"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Tools"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BC4FFBA9F8D25B8"]
+			description: ["This pack is going to focus very heavily on Create and various Create addons. Make some andesite alloy, shafts, and andesite casings to get started."]
+			id: "0ECFCEA5A855F56A"
+			subtitle: "yayy"
+			tasks: [
+				{
+					id: "6ECBD1E8615FE757"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "512EE5924907946D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "14F74ED17F786C40"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0ECFCEA5A855F56A"]
+			description: [
+				"This is how you'll get plates to make machines that'll make your life easier. The ones I've listed are the only ones reasonably available to you right now."
+				"{@pagebreak}"
+			]
+			id: "40F40035ACB74480"
+			subtitle: "you need this"
+			tasks: [
+				{
+					id: "446DBF60F29F275F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:water_wheel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "017AB26458980F81"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:hand_crank"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F5EEE632C091056"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:large_water_wheel"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Rotational Force"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40F40035ACB74480"]
+			description: [
+				"Well check you out, but how are you gonna use this thing?"
+				""
+			]
+			id: "584A7133AB926490"
+			subtitle: "your first little machine"
+			tasks: [
+				{
+					id: "749641660F65696C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_press"
+					}
+					type: "item"
+				}
+				{
+					id: "0B9E2FBEAA8D314D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:depot"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["40F40035ACB74480"]
+			id: "28FF4AF0EEDF1022"
+			subtitle: "spinny thangs"
+			tasks: [
+				{
+					id: "0FDA38AF6AB2C4DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "62864AEA1C9CAB7D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "46DD64DBE135BFD9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:gearbox"
+					}
+					type: "item"
+				}
+			]
+			title: "Using rotational force"
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["584A7133AB926490"]
+			description: ["The fan can be used a few different ways! By placing a campfire in front of it, you can cook things. With lava, you can smelt. With a soulsand campfire, you can haunt. With water, you can wash."]
+			id: "6D140E7B121F5144"
+			subtitle: "All kinds of utility"
+			tasks: [{
+				id: "23EEFC2DCBFF1068"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:encased_fan"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D140E7B121F5144"]
+			description: ["Search for Seabrass ore in EMI to see where this generates! Once you get ahold of some, wash it for some pre-nether brass!"]
+			id: "76C64120113ADFFF"
+			subtitle: "a new material"
+			tasks: [
+				{
+					id: "3A35ED590D68E48B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "abyssal_decor:seabrass_ingot"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B6D155213119939"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "abyssal_decor:raw_seabrass"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "222B89C0678F8ADC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_ingot"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Brass or Seabrass"
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["40F40035ACB74480"]
+			id: "6D2EDD9200BC2F7E"
+			subtitle: "for crushin thangs"
+			tasks: [{
+				id: "0E2C5FDDB92D3C51"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:millstone"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6D2EDD9200BC2F7E"
+				"6D140E7B121F5144"
+			]
+			description: ["By crushing gold ore in a millstone and washing it, you have a small chance of getting nether quartz! Use this nether quartz to create rose gold."]
+			id: "518CC76E4A9BB108"
+			subtitle: "it's quartz"
+			tasks: [{
+				id: "3E6FCB99FDADF268"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:quartz"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["584A7133AB926490"]
+			description: ["I highly recommend going through the mixer recipes in EMI! The andesite alloy recipe is the same as the regular crafting recipe, but there are a few little surprises for those of you who think the mixer is underutilized."]
+			id: "0442FED7CC85A232"
+			subtitle: "mix it up a little"
+			tasks: [
+				{
+					id: "2D99B8B17DA90DAA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_mixer"
+					}
+					type: "item"
+				}
+				{
+					id: "31BD80120D5993BC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:basin"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0442FED7CC85A232"]
+			description: ["Not really a resource you *need* to make, but it gives you some fun things :)"]
+			id: "45FA72341F112FE4"
+			optional: true
+			subtitle: "hooooooly moly"
+			tasks: [{
+				id: "370E0FC65CFE35F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:cardboard"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0442FED7CC85A232"
+				"6D2EDD9200BC2F7E"
+			]
+			description: ["If you're anything like me, slime avoids you like the plague in the beginning. I've added an extra way to get lime dye using the mixer and an oak sapling. You'll still need the millstone for wheat flour!"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:slime_ball"
+			}
+			id: "032A2D09123EEEB7"
+			subtitle: "i hate this part"
+			tasks: [
+				{
+					id: "013F4DDE6E475D57"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:lime_dye"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "57F409BAA3BFB71A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "10E9CB1A2402F4E5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:wheat_flour"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Slime"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["584A7133AB926490"]
+			id: "2E8B91599B697D70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "547F2F8474D8A9F5"
+				table_id: 9193314603114289609L
+				type: "choice"
+			}]
+			subtitle: "What everyone should have!"
+			tasks: [
+				{
+					id: "6E58F6808BCE4D9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+				{
+					id: "18BEE58928C29E03"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+			]
+			title: "Engineer's Kit"
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D140E7B121F5144"]
+			description: ["You can get obsidian without a diamond pickaxe by washing magma blocks. Early Nether, yippee!"]
+			id: "1BCAFAAF845F4748"
+			subtitle: "wash you magma"
+			tasks: [{
+				id: "13CC8FCFA304F9DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1BCAFAAF845F4748"]
+			description: [
+				"Now that you have access to the nether, you'll need to get your hands on a blaze burner. Take an empty one up to a blaze and right click it. You can also right click a blaze spawner."
+				""
+				"Place it underneath a basin and give it some fuel. After that, throw some zinc and copper into the basin. You'll get brass easier this way."
+			]
+			id: "65C1C91B427E64E3"
+			subtitle: "can i stay home? i'm burning up"
+			tasks: [
+				{
+					id: "36DD66CA21807652"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:empty_blaze_burner"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "18924F89747C0BA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:blaze_burner"
+					}
+					type: "item"
+				}
+			]
+			title: "Blaze Burner"
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["032A2D09123EEEB7"]
+			description: ["Glue is necessary for assembling contraptions. If you've played with Create before, you know just how important this nasty green tube can be."]
+			id: "0F5541E80CD21037"
+			subtitle: "don't smell too long"
+			tasks: [{
+				id: "223F6AACBFFEE34C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0F5541E80CD21037"]
+			description: ["Waterwheels not cutting it for you? I don't blame you. Windmills may not be your cup of tea either, but try to be open minded. You need two stacks of sails or sail-like (wool) blocks attached to the bearing for max speed."]
+			id: "6957DA5A71AC6802"
+			subtitle: "where the wind we go"
+			tasks: [
+				{
+					id: "658EB5B7D688EF9A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:windmill_bearing"
+					}
+					type: "item"
+				}
+				{
+					id: "50B721F2675E7826"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:white_sail"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -7.5d
+		}
+	]
+	title: "A Welcoming World"
+}

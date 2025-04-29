@@ -1,0 +1,310 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ancient_wonders"
+	group: "0D2381B91490FE0F"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "wan_ancient_beasts:soarer_egg"
+	}
+	id: "632582EDBEED4F44"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Use your nature's compass (or your wits) to find a desert. There will be a few treats hidden around there for you."]
+			id: "75D25DF27BB88158"
+			subtitle: "not candy yet, one more s"
+			tasks: [{
+				biome: "minecraft:desert"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "chipped:desert_sand"
+				}
+				id: "1340233D46DF93AF"
+				title: "Desert"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75D25DF27BB88158"]
+			description: [
+				"You can find this egg by using a brush in desert ruins. See any suspicious sand? Brush it up"
+				""
+				"This little guy CAN'T be tamed and is a neutral mob. Immune to projectiles, so don't think you can put him down old yeller style if you piss him off."
+				""
+				"Try hatching him in an enclosed space, you'll want to use a chisel to get some spikes. Should be easier if it can't chase you."
+			]
+			id: "56E66BA092C94FD3"
+			subtitle: "what the crush"
+			tasks: [{
+				id: "4D07F9F6A7838509"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "wan_ancient_beasts:crusher_egg"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56E66BA092C94FD3"]
+			description: ["By combining a crusher's spike with a shield in your smithing table, you can make a shield that deflects damage back to your attacker."]
+			id: "0BAAF71D699436B7"
+			subtitle: "isnt thorns already a thing"
+			tasks: [{
+				id: "1AA68324C28BDC3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "wan_ancient_beasts:reinforced_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Treats in the badlands? Yup. Mesa Temple, you'll wanna go there to get a create machine everyone's familiar with. Gotta give you SOME reason to explore, right?"]
+			id: "7CD8B861AC2AC114"
+			subtitle: "cause oohh, i'm bad"
+			tasks: [{
+				biome: "minecraft:badlands"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:red_terracotta"
+				}
+				id: "770D33F7DDD241DB"
+				title: "Badlands"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CD8B861AC2AC114"]
+			description: [
+				"The eater was THE big boss back in its time, and the other mobs still know it. The only ones who don't bow to this thing are boss mobs. Keep this guy around and you'll never hear from a zombie or skeleton again. Can't be tamed, just like the crusher."
+				""
+				"Do note that this guy eats villagers, so you might not want to keep him near a village."
+				""
+				"For the psychotic, you may actually want to set this guy loose in a village. When eating a mob, there's a small chance he'll drop a tooth. It's a pretty sturdy tooth. I've fed him obsidian before as a bit and he ate the whole stack. Might be worth experimenting with."
+			]
+			id: "7BDAA53C95EE9822"
+			subtitle: "a little different than the holiday"
+			tasks: [{
+				id: "3D50BF1E6BBF2D29"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "wan_ancient_beasts:eater_egg"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BDAA53C95EE9822"]
+			description: ["By applying the tooth of an eater to an andesite casing, you can make a drill!"]
+			id: "3497AF5A82050D1D"
+			subtitle: "me eat rock"
+			tasks: [{
+				id: "2D6CFACC7BBA0313"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_drill"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7BDAA53C95EE9822"]
+			description: ["Wanna be a caveman? Take some of the eater's teeth and make this fun little club."]
+			id: "580498502BFDECE3"
+			subtitle: "not quite alex's"
+			tasks: [{
+				id: "285B48C2D8442180"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "wan_ancient_beasts:ancient_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Third quest's the charm, let's make these shorter and shorter! Ice spike castle."]
+			id: "1FDB60714E3C3347"
+			subtitle: "mt. ann"
+			tasks: [{
+				biome: "#forge:mountain"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mcwholidays:snowy_grass_block"
+				}
+				id: "1A9EE52C5F601543"
+				title: "Mountain"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FDB60714E3C3347"]
+			description: ["Hold on, forgot one important thing. There will be suspicious ice there instead, and you obviously can't brush ice. Right click the ice a few times with this chisel and it'll be just like normal."]
+			id: "02499E2284F19995"
+			subtitle: "like the decoration thang?"
+			tasks: [{
+				id: "3F8FAB8303FC0A15"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "wan_ancient_beasts:chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02499E2284F19995"]
+			description: [
+				"The walker can be tamed while it's a baby. Feed it some spore blossoms and watch that little guy get ready to be a minivan for the rest of its life."
+				""
+				"Equip it with a saddle and you'll be able to have 4 buddies on at once while travelling! You can also attach a chest for some pretty good inventory space."
+			]
+			id: "356F2F76E8D12CB5"
+			subtitle: "ancient minivan"
+			tasks: [{
+				id: "24FFB0A46F1EEEAF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "wan_ancient_beasts:walker_egg"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1FDB60714E3C3347"
+				"02499E2284F19995"
+			]
+			description: [
+				"This helpful critter can be found in ancient nests. Feed it toxlacanths to tame it."
+				""
+				"While it can be saddled and used to fly around, mind its stamina. You'll be able to make more means of transportation soon, don't worry."
+			]
+			id: "51CC2C10E7CE7861"
+			subtitle: "early game flight"
+			tasks: [{
+				id: "2429BFFD0517C054"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "wan_ancient_beasts:soarer_egg"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			description: ["By haunting a nature's compass, you can make a compass that tracks where structures are. Useful for this pack."]
+			id: "73F27CCCDD4ED14A"
+			optional: true
+			subtitle: "where go how me do it"
+			tasks: [{
+				id: "5B397D449ED5BADE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Explorer's Compass"
+			x: -10.0d
+			y: 2.5d
+		}
+	]
+	title: "Ancient Wonders"
+}

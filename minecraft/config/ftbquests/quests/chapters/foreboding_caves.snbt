@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "foreboding_caves"
+	group: "0D2381B91490FE0F"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "alexscaves:waste_drum"
+	}
+	id: "096EA3D68652EE75"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5F8A47493E680D52"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:scarlet_magnet"
+				}
+				id: "1D58E1B5C1837401"
+				title: "Visit the Magnetic Caves"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "1B6734BE4C513FED"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:pearl"
+				}
+				id: "5A4398B7929119B2"
+				title: "Visit the Abyssal Chasm"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:uranium"
+			}
+			id: "19C333C01E6E5A2D"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:fissile_core"
+				}
+				id: "474A9B019887BD66"
+				title: "Visit the Toxic Caves"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "0FA62C08C5D7CB68"
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:candy_cane"
+				}
+				id: "2AD89023F8E16E77"
+				title: "Visit the Candy Cavity"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			id: "52A673AC72603B5D"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:beholder"
+				}
+				id: "160B8A3318283242"
+				title: "Visit the Forlorn Hollows"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "4FD608687694852A"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dinosaur_nugget"
+				}
+				id: "2162F72C902D4B8D"
+				title: "Visit the Primordial Caves"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["289D5A03A7BFE863"]
+			description: ["You're making machines left and right. Let's assume you're a genius. There's a mechanical crafting recipe for a submarine that you can make off rip. Might be a good idea to do that, but I won't make you."]
+			id: "1FBC2E6536577F05"
+			optional: true
+			subtitle: "what do you get on yours"
+			tasks: [{
+				id: "608CB19CA3AB7E74"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:submarine"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F8A47493E680D52"]
+			description: ["Grab a few of these ores and you'll find loads of niche uses for them."]
+			id: "428B3C96FF283748"
+			subtitle: "red and blue makes purble :)"
+			tasks: [
+				{
+					id: "1A2C75F61F838A50"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:raw_scarlet_neodymium"
+					}
+					type: "item"
+				}
+				{
+					id: "0C46CC717F21864B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:raw_azure_neodymium"
+					}
+					type: "item"
+				}
+			]
+			title: "Neodymium Ores"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["428B3C96FF283748"]
+			id: "26EF74B8C213323E"
+			subtitle: "they're pulling my teeth out dude"
+			tasks: [
+				{
+					id: "03AC821ECA6B2B31"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:scarlet_magnet"
+					}
+					type: "item"
+				}
+				{
+					id: "160FFED3E17C051D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:azure_magnet"
+					}
+					type: "item"
+				}
+			]
+			title: "Scarlet and Azure magnets"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26EF74B8C213323E"]
+			id: "4392D5EB59B5637D"
+			tasks: [{
+				id: "7BB4EDCF2246B8C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:polarizer"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19C333C01E6E5A2D"]
+			id: "54DF439A14A2319A"
+			tasks: [{
+				id: "20F97F1F189398A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:fissile_core"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54DF439A14A2319A"]
+			id: "53FCEE9558C5E889"
+			tasks: [{
+				id: "00484B71C1F7417C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createnuclear:reactor_controller"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FA62C08C5D7CB68"]
+			description: ["By heating up chocolate blocks in a mixer, you can get liquid chocolate fairly easily!"]
+			id: "7F3708563D92A253"
+			subtitle: "yumy"
+			tasks: [{
+				id: "4465E7146DAE9379"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:block_of_chocolate"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+	]
+	title: "Foreboding Caves"
+}

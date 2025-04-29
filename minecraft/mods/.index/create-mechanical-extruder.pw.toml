@@ -1,0 +1,16 @@
+filename = 'create_mecanical_extruder-1.20.1-1.6.9-6.0.4.jar'
+name = 'Create Mechanical Extruder'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0bcf001cf56ecd2d0ce7dd0dfea013b9a46a57f04984586f47754947d700ab3438c39a877e90a0678aff6b9cb59d7d2bd20489281131d86ce199e5f7e5933613'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hGAlcCDJ/versions/xrCoD99D/create_mecanical_extruder-1.20.1-1.6.9-6.0.4.jar'
+
+[update.modrinth]
+mod-id = 'hGAlcCDJ'
+version = 'xrCoD99D'

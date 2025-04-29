@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "going_nuclear"
+	group: "5E3D36E9ED5416F5"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "createnuclear:enriched_yellowcake"
+	}
+	id: "7B57DE204D93CC86"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["11FC75CAA2E30708"]
+			id: "50ADA1A124F37C7B"
+			tasks: [{
+				id: "1BD2A4658AD034E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createnuclear:reactor_casing"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["11FC75CAA2E30708"]
+			id: "4688889126C70C23"
+			subtitle: "you don't see me printing it"
+			tasks: [{
+				id: "143558D8070C76D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createnuclear:reactor_blueprint_item"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["50ADA1A124F37C7B"]
+			id: "239ACF764D9C6E79"
+			tasks: [{
+				id: "6F42B77E561DEA57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createnuclear:reactor_frame"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50ADA1A124F37C7B"]
+			id: "00871504DB1A6693"
+			tasks: [{
+				id: "61343190046C3BBD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createnuclear:reactor_core"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["50ADA1A124F37C7B"]
+			id: "6BC20D2CA9C940BE"
+			tasks: [{
+				id: "19DBB48BEE46045C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createnuclear:reactor_cooler"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"50ADA1A124F37C7B"
+				"4688889126C70C23"
+			]
+			id: "65FCCA77616F686B"
+			tasks: [{
+				id: "7CE70C3F3B99FD79"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createnuclear:reactor_controller"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50ADA1A124F37C7B"]
+			id: "4AFC5F700F1F9964"
+			tasks: [{
+				id: "627049E3C980F55A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createnuclear:reactor_output"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50ADA1A124F37C7B"]
+			id: "02F6CDB0E9B0017D"
+			tasks: [{
+				id: "13386B1080C67F9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createnuclear:reactor_input"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+	]
+	title: "Going Nuclear"
+}

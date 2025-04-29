@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ground_travel"
+	group: "0D2381B91490FE0F"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "create_kart:kart_white"
+	}
+	id: "2D2B5C1150E3B4A5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "23B7CF584A24470D"
+			tasks: [{
+				id: "6C3DBD13FB745EE2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_kart:kart_white"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["02499E2284F19995"]
+			description: [
+				"The walker can be tamed while it's a baby. Feed it some spore blossoms and watch that little guy get ready to be a minivan for the rest of its life."
+				""
+				"Equip it with a saddle and you'll be able to have 4 buddies on at once while travelling! You can also attach a chest for some pretty good inventory space."
+			]
+			id: "07338A89E8CC63C5"
+			subtitle: "ancient minivan"
+			tasks: [{
+				id: "7AF6FCB292588E1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "wan_ancient_beasts:walker_egg"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+	]
+	title: "Ground Travel"
+}

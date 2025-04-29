@@ -1,0 +1,288 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_plain_creatzy"
+	group: "5E3D36E9ED5416F5"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "create:fluid_pipe"
+	}
+	id: "3468CBE764F32371"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["518CC76E4A9BB108"]
+			description: ["Rose quartz can be made from redstone and nether quartz. Use sandpaper to make it nice and smooth."]
+			id: "4A9640E4FC827260"
+			subtitle: "shiny"
+			tasks: [
+				{
+					id: "7C533E563EA38646"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:polished_rose_quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "286B6E8A8C465C6A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "452F0BCE9DBF6CC7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:red_sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A9640E4FC827260"]
+			description: ["No."]
+			id: "78F5240F74975763"
+			subtitle: "electricity already?"
+			tasks: [{
+				id: "4A839244F74FAF29"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:electron_tube"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"76C64120113ADFFF"
+				"78F5240F74975763"
+			]
+			description: ["After washing seabrass, you got curious and started making plates."]
+			id: "3ACD9DB27C9FB863"
+			subtitle: "it pokes and cries"
+			tasks: [{
+				id: "5FB11A90970F45E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:deployer"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"76C64120113ADFFF"
+				"65C1C91B427E64E3"
+			]
+			dependency_requirement: "one_completed"
+			id: "3211995985D15436"
+			subtitle: "in case things get brass"
+			tasks: [{
+				id: "56EF8CB0BDA73C8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:brass_casing"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3211995985D15436"
+				"78F5240F74975763"
+				"3ACD9DB27C9FB863"
+			]
+			description: ["Making a precision mechanism is a pretty notable achievement in the beginning. A pat on the back if you haven't messed with create that much."]
+			id: "2DC8C8AE3353C69B"
+			subtitle: "ohhh, like the mod"
+			tasks: [{
+				id: "3BF40B6CED47CAC0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:precision_mechanism"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3ACD9DB27C9FB863"
+				"2DC8C8AE3353C69B"
+			]
+			description: ["By applying a precision mechanism to a brass casing, you're able to control the speed at which things rotate. Without all those \"gear ratios\" "]
+			id: "51A2AB2631FE8DD7"
+			subtitle: "spin my way"
+			tasks: [{
+				id: "2C514F60D8D47FD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:rotation_speed_controller"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DC8C8AE3353C69B"]
+			description: ["Mechanical crafters are used for items that are a bit too big or complex. You'll wanna have at least 21 to start out. That will allow you to make crushing wheels."]
+			id: "289D5A03A7BFE863"
+			subtitle: "table not big enough :("
+			tasks: [{
+				count: 21L
+				id: "3A28CBAE393B8E45"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_crafter"
+				}
+				type: "item"
+			}]
+			title: "Mechanical Crafter"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["289D5A03A7BFE863"]
+			description: [
+				"The crushers will give you byproducts! They're also a great way to start getting liquid xp. Nuggets give about 250mb of xp. You'll want to start storing it."
+				""
+				"Crushers need to be spinning in two separate directions with a space in between them. It'll look like they're touching, but they just need that technical block space in between. You can set them up vertically or horizontally."
+			]
+			id: "31BB0DB8FEDE24C0"
+			subtitle: "hey bayeby... i got a crush on You..."
+			tasks: [{
+				count: 2L
+				id: "4438CC6D63BAE720"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:crushing_wheel"
+				}
+				type: "item"
+			}]
+			title: "Crushing Wheels"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31BB0DB8FEDE24C0"]
+			description: ["A good place to start for storing fluids. These fluid tanks can also be used to make a steam engine, which is a really easy and lag-friendly way to produce rotational force."]
+			id: "33720C6DA89EA3BE"
+			subtitle: "full of fluid (disgusting)"
+			tasks: [{
+				id: "29C97D325B0D7C3C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:fluid_tank"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["33720C6DA89EA3BE"]
+			description: ["Try placing four fluid tanks in a 2x2 pattern. Place the steam engine on top of those four fluid tanks. Place a shaft on top of the steam engine. Place lava underneath the fluid tanks. Pump water into the fluid tanks. Now you have 2048 SU. You can set this up in a row and get tons of steam power this way. I highly recommend it for starting out."]
+			id: "14D7F6DDB8FED24C"
+			subtitle: "where i buy my game"
+			tasks: [{
+				id: "3F00E10A0ADE976D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:steam_engine"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+	]
+	title: "Just plain Creatzy"
+}

@@ -1,0 +1,17 @@
+[19:10:39] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[19:10:39] [INIT] Loaded plugins:
+[19:10:39] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:10:39] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:10:39] [INIT] - pro.mikey.kubeutils.kubejs.KubeUtilsPlugin
+[19:10:39] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[19:10:39] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[19:10:39] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[19:10:39] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[19:10:39] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[19:10:39] [INIT] - com.probejs.ProbeJSPlugin
+[19:10:41] [INFO] example.js#5: Hello, Tubby! (Loaded being mean scripts)
+[19:10:41] [INFO] Loaded script startup_scripts:example.js in 0.171 s
+[19:10:41] [INFO] item modifications/modis.js#1: -----Loading modis
+[19:10:41] [INFO] Loaded script startup_scripts:item modifications/modis.js in 0.031 s
+[19:10:41] [INFO] Loaded 2/2 KubeJS startup scripts in 1.364 s with 0 errors and 0 warnings
+[19:11:37] [INFO] item modifications/modis.js#49: -----Loaded modis....

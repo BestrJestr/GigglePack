@@ -1,0 +1,489 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "that_factory_must_grow"
+	group: "5E3D36E9ED5416F5"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "tfmg:large_radial_engine"
+	}
+	id: "0FEE4B7B1D64BC2D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1BCAFAAF845F4748"]
+			description: [
+				"Now that you have access to the nether, you'll need to get your hands on a blaze burner. Take an empty one up to a blaze and right click it. You can also right click a blaze spawner."
+				""
+				"Place it underneath a basin and give it some fuel. After that, throw some zinc and copper into the basin. You'll get brass easier this way."
+			]
+			id: "5A4961D194A36F37"
+			subtitle: "can i stay home? i'm burning up"
+			tasks: [
+				{
+					id: "43E3D947254155EB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:empty_blaze_burner"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "490641FD72F8E447"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:blaze_burner"
+					}
+					type: "item"
+				}
+			]
+			title: "Blaze Burner"
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5A4961D194A36F37"]
+			id: "1F1FE16F2B1CDEA8"
+			subtitle: "i cast thee out, i i ron"
+			tasks: [{
+				id: "20877AB4058ED31B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:cast_iron_ingot"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"1F1FE16F2B1CDEA8"
+				"2757CD39C3F3EA33"
+			]
+			id: "3F54EE8FF655F340"
+			subtitle: "to drink? me thirsy"
+			tasks: [{
+				count: 9L
+				id: "3607E892301BD47C"
+				item: {
+					Count: 9
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:coke_oven"
+				}
+				type: "item"
+			}]
+			title: "Coke Oven"
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F1FE16F2B1CDEA8"]
+			description: [
+				"All valid ways of putting items into the Coke Oven. These are also ways of transporting items into or out of (if using anything other than an item hatch) inventories."
+				"{@pagebreak}"
+			]
+			id: "2757CD39C3F3EA33"
+			subtitle: "that's not a word dude"
+			tasks: [
+				{
+					id: "7B276F1FEABBDE2B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:item_hatch"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A3EBD2B42C6BBD5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:andesite_funnel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B97771886A6F069"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_funnel"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5B5828C987969D3E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:chute"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77034DDD767A9CB2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:smart_chute"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Entry and Unentry"
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F54EE8FF655F340"]
+			id: "06E06F2D48C23F44"
+			subtitle: "i dont feel good when i eat this"
+			tasks: [{
+				id: "518A77584BD51475"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:coal_coke"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F54EE8FF655F340"]
+			description: ["Creosote oil is useful for powering the low grade fuel generator. This will generate some SU in exchange for creosote. A really good deal."]
+			id: "3798EC267C017EB3"
+			subtitle: "i feel great when i drink this"
+			tasks: [{
+				id: "6347A98DF1284E1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:creosote_bucket"
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["289D5A03A7BFE863"]
+			description: [
+				"The crushers will give you byproducts! They're also a great way to start getting liquid xp. Nuggets give about 250mb of xp. You'll want to start storing it."
+				""
+				"Crushers need to be spinning in two separate directions with a space in between them. It'll look like they're touching, but they just need that technical block space in between. You can set them up vertically or horizontally."
+			]
+			id: "00C6AB0926EB63FD"
+			subtitle: "hey bayeby... i got a crush on You..."
+			tasks: [{
+				count: 2L
+				id: "70730115689129E9"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:crushing_wheel"
+				}
+				type: "item"
+			}]
+			title: "Crushing Wheels"
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00C6AB0926EB63FD"]
+			description: ["By crushing bauxite, you'll find yourself with some crushed aluminum. Smelt this up for an ingot."]
+			id: "03731BBC5B841484"
+			subtitle: "aluminiumium"
+			tasks: [
+				{
+					id: "683DB09558E87498"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:aluminum_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "167DDB61A43DE4F5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:bauxite"
+					}
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"03731BBC5B841484"
+				"3798EC267C017EB3"
+			]
+			id: "589EFCE119841F3B"
+			subtitle: "is that thang purring or is it me"
+			tasks: [{
+				id: "75B2F3EC04EA0B5D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:low_grade_fuel_engine"
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0442FED7CC85A232"
+				"5A4961D194A36F37"
+			]
+			description: ["In order to make steel, you'll need to get ahold of some blast mixture. Mix some limestone together with 3 crushed raw iron and you'll smile real big."]
+			id: "79F10C1241E5A27F"
+			subtitle: "huh whuuuuh?"
+			tasks: [{
+				id: "35EBDF96CCA90478"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:blasting_mixture"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70040CCC8F22BB7C"]
+			id: "454198072E2EE097"
+			subtitle: "blat"
+			tasks: [
+				{
+					id: "07E175ED3E1552E5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:blast_furnace_output"
+					}
+					type: "item"
+				}
+				{
+					count: 29L
+					id: "10EC0E882E3E153C"
+					item: {
+						Count: 29
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:fireproof_bricks"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3A5C35EABB4A5890"
+					item: {
+						Count: 8
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:fireproof_brick_reinforcement"
+					}
+					type: "item"
+				}
+			]
+			title: "Blast Furnace"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"454198072E2EE097"
+				"79F10C1241E5A27F"
+				"06E06F2D48C23F44"
+			]
+			id: "19C05C3EBD3FAF91"
+			subtitle: "i hope he gets it"
+			tasks: [
+				{
+					id: "781243E2D91290CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:casting_basin"
+					}
+					type: "item"
+				}
+				{
+					id: "65A5E07CD358F94E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:casting_spout"
+					}
+					type: "item"
+				}
+				{
+					id: "43516DA5A18AB1C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:ingot_mold"
+					}
+					type: "item"
+				}
+			]
+			title: "Steel Casting"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C05C3EBD3FAF91"]
+			id: "11FC75CAA2E30708"
+			subtitle: "you steel from my house, i find you"
+			tasks: [{
+				id: "4031C9FDFA4EB5C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:steel_ingot"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			description: ["Fireclay can resist the crazy high temperatures necessary to make steel. You'll wanna start collecting a bunch of this. Four stacks should do the trick."]
+			id: "70040CCC8F22BB7C"
+			subtitle: "this clay's fire"
+			tasks: [{
+				count: 256L
+				id: "58653CD5D3B2038D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:fireclay_ball"
+				}
+				type: "item"
+			}]
+			title: "Fireclay"
+			x: -4.0d
+			y: -2.0d
+		}
+	]
+	title: "That Factory MUST Grow"
+}

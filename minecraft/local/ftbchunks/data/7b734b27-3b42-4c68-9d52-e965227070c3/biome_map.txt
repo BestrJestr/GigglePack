@@ -1,0 +1,14 @@
+#0D6 terralith:cave/diorite_caves
+#4DB terralith:cave/fungal_caves
+#3DF biomeswevegone:coconino_meadow
+#6B9 terralith:cold_shrubland
+#2B7 biomeswevegone:crimson_tundra
+#4CA minecraft:dripstone_caves
+#01C regions_unexplored:frozen_pine_taiga
+#3A0 minecraft:frozen_river
+#61B regions_unexplored:frozen_tundra
+#1AC terralith:gravel_desert
+#154 minecraft:ice_spikes
+#599 biomeswevegone:shattered_glacier
+#4E5 minecraft:snowy_plains
+#294 atmospheric:snowy_scrubland

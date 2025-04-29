@@ -1,0 +1,13 @@
+#7E7 biomeswevegone:allium_shrubland
+#486 terralith:birch_taiga
+#3DE minecraft:deep_ocean
+#2D3 biomeswevegone:forgotten_forest
+#498 minecraft:lush_caves
+#4F1 minecraft:ocean
+#301 regions_unexplored:orchard
+#10D regions_unexplored:pine_slopes
+#3DC minecraft:plains
+#5FF minecraft:river
+#02B regions_unexplored:shrubland
+#51A minecraft:stony_shore
+#77B regions_unexplored:temperate_grove

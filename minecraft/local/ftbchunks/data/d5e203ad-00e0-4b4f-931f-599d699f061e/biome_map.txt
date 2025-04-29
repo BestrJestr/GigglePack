@@ -1,0 +1,8 @@
+#4CA minecraft:dripstone_caves
+#01C regions_unexplored:frozen_pine_taiga
+#3A0 minecraft:frozen_river
+#61B regions_unexplored:frozen_tundra
+#154 minecraft:ice_spikes
+#498 minecraft:lush_caves
+#4E5 minecraft:snowy_plains
+#294 atmospheric:snowy_scrubland

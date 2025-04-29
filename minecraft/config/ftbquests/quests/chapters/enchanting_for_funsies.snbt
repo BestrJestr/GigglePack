@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchanting_for_funsies"
+	group: "5E3D36E9ED5416F5"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "create_enchantment_industry:enchanting_guide"
+	}
+	id: "4F66E042C9BF58D1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5E30524400754E5F"
+			tasks: [{
+				id: "63045AFA5E1203C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_enchantment_industry:disenchanter"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "669C11657CA40C0C"
+			tasks: [{
+				id: "1CA64C1E84F6EC5D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_enchantment_industry:printer"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "3BAFD38B462D849C"
+			tasks: [{
+				id: "2F55AD241B4847C2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_enchantment_industry:enchanting_guide"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: ["For those who want fast xp, putting one of these in a mixer while heating it will give you 250 mb of liquid xp. Enjoy!"]
+			id: "092EEE4769F1A871"
+			subtitle: "an ez experience"
+			tasks: [{
+				id: "0FACC1F62B9F640A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	title: "Enchanting For Funsies"
+}
