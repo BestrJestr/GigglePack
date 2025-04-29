@@ -1,0 +1,12 @@
+#36D regions_unexplored:chalk_cliffs
+#6B9 natures_spirit:drylands
+#70E atmospheric:dunes
+#095 regions_unexplored:eucalyptus_forest
+#179 atmospheric:flourishing_dunes
+#5FF minecraft:river
+#0F5 regions_unexplored:rocky_reef
+#51A minecraft:stony_shore
+#2B7 minecraft:warm_ocean
+#5DF biomesoplenty:wasteland
+#18C natures_spirit:wooded_drylands
+#6C5 natures_spirit:xeric_plains
